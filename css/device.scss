@@ -1,0 +1,23 @@
+.device-container {
+    width: 70%;
+    margin: auto;
+
+    h1 {
+        color: #41786B;   
+        margin: 0;
+    }
+
+    .pc-info, .kernel-info {
+        margin-top: 20px;
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid #41786B;
+    
+            td {
+                border-collapse: collapse;
+                border: 2px solid #41786B;
+            }
+        }
+    }
+}

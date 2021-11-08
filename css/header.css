@@ -1,0 +1,120 @@
+header {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid #41786B;
+  background-color: #333333;
+}
+
+header .main-header .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 8px;
+}
+
+header .main-header .contact p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+header .main-header .search {
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .main-header .search input {
+  height: 20px;
+  margin-bottom: 8px;
+  margin-top: auto;
+}
+
+header .main-header .logo {
+  width: 200px;
+  height: auto;
+  margin: 8px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .main-header .logo img {
+  width: 200px;
+  height: auto;
+  margin: auto;
+}
+
+header .main-header p {
+  color: #fff;
+}
+
+header .main-header p.pumpkin {
+  color: #EE7116;
+}
+
+header .school-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .school-header .form-container {
+  margin: 10px;
+}
+
+header .school-header .form-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .school-header .form-container form .custom-select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px;
+}
+
+header .school-header .form-container form input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=header.css.map */
